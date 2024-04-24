@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SBE_InstrumentConfiguration SB_ConfigCTD_FileVersion="7.26.4.0">
+  <Instrument Type="14">
+    <Name>SBE 37 Microcat</Name>
+    <FrequencyChannelsAdded>1</FrequencyChannelsAdded>
+    <SampleIntervalSeconds>3e+2</SampleIntervalSeconds>
+    <MooredPressure>0.00000e+000</MooredPressure>
+    <MooredLatitude>0.00000e+000</MooredLatitude>
+    <UseMooredLatitude>0</UseMooredLatitude>
+    <FirmwareVersion>6.1.2</FirmwareVersion>
+    <DeviceType>SBE37SM-RS232</DeviceType>
+    <SensorArray Size="3">
+      <Sensor index="0" SensorID="58">
+        <TemperatureSensor SensorID="58">
+          <SerialNumber>03721530</SerialNumber>
+          <CalibrationDate>22-Dec-19</CalibrationDate>
+          <A0>-0.0001143173</A0>
+          <A1>0.0003044479</A1>
+          <A2>-0.000004096801</A2>
+          <A3>1.91267e-7</A3>
+          <Slope>1.00000000</Slope>
+          <Offset>0.0000</Offset>
+        </TemperatureSensor>
+      </Sensor>
+      <Sensor index="1" SensorID="3">
+        <ConductivitySensor SensorID="3">
+          <SerialNumber>03721530</SerialNumber>
+          <CalibrationDate>22-Dec-19</CalibrationDate>
+          <UseG_J>1</UseG_J>
+          <SeriesR>0</SeriesR>
+          <CellConst>2000</CellConst>
+          <ConductivityType>1</ConductivityType>
+          <Coefficients equation="0">
+            <A>0.00000000e+00</A>
+            <B>0.00000000e+00</B>
+            <C>0.00000000e+00</C>
+            <D>0.00000000e+00</D>
+            <M>0.0</M>
+            <CPcor>-9.57e-8</CPcor>
+          </Coefficients>
+          <Coefficients equation="1">
+            <G>-1.001591</G>
+            <H>0.147311</H>
+            <I>-0.0002525101</I>
+            <J>0.00004092083</J>
+            <CPcor>-9.57e-8</CPcor>
+            <CTcor>0.00000325</CTcor>
+            <WBOTC>-1.276586e-7</WBOTC>
+          </Coefficients>
+          <Slope>1.00000000</Slope>
+          <Offset>0.0000</Offset>
+        </ConductivitySensor>
+      </Sensor>
+      <Sensor index="2" SensorID="46">
+        <PressureSensor SensorID="46">
+          <SerialNumber>11447521</SerialNumber>
+          <CalibrationDate>19-Dec-19</CalibrationDate>
+          <PA0>0.06782583</PA0>
+          <PA1>0.001584081</PA1>
+          <PA2>6.430154e-12</PA2>
+          <PTEMPA0>-85.57091</PTEMPA0>
+          <PTEMPA1>0.04641607</PTEMPA1>
+          <PTEMPA2>-4.030801e-8</PTEMPA2>
+          <PTCA0>524127.1</PTCA0>
+          <PTCA1>4.632432</PTCA1>
+          <PTCA2>-0.1216767</PTCA2>
+          <PTCB0>25.16438</PTCB0>
+          <PTCB1>-0.000525</PTCB1>
+          <PTCB2>0.00000000e+00</PTCB2>
+          <Offset>0.000000</Offset>
+        </PressureSensor>
+      </Sensor>
+    </SensorArray>
+  </Instrument>
+</SBE_InstrumentConfiguration>

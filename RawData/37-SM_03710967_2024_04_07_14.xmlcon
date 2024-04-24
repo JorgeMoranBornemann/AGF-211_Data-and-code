@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SBE_InstrumentConfiguration SB_ConfigCTD_FileVersion="7.26.4.0">
+  <Instrument Type="14">
+    <Name>SBE 37 Microcat</Name>
+    <FrequencyChannelsAdded>0</FrequencyChannelsAdded>
+    <SampleIntervalSeconds>3e+2</SampleIntervalSeconds>
+    <MooredPressure>0.000000e+00</MooredPressure>
+    <MooredLatitude>0.00000e+000</MooredLatitude>
+    <UseMooredLatitude>0</UseMooredLatitude>
+    <FirmwareVersion>4.1</FirmwareVersion>
+    <DeviceType>SBE37SM-RS232</DeviceType>
+    <SensorArray Size="2">
+      <Sensor index="0" SensorID="58">
+        <TemperatureSensor SensorID="58">
+          <SerialNumber>03710967</SerialNumber>
+          <CalibrationDate>27-Nov-18</CalibrationDate>
+          <A0>-0.00005708231</A0>
+          <A1>0.000297644</A1>
+          <A2>-0.000003861253</A2>
+          <A3>1.860893e-7</A3>
+          <Slope>1.00000000</Slope>
+          <Offset>0.0000</Offset>
+        </TemperatureSensor>
+      </Sensor>
+      <Sensor index="1" SensorID="3">
+        <ConductivitySensor SensorID="3">
+          <SerialNumber>03710967</SerialNumber>
+          <CalibrationDate>27-Nov-18</CalibrationDate>
+          <UseG_J>1</UseG_J>
+          <SeriesR>0</SeriesR>
+          <CellConst>2000</CellConst>
+          <ConductivityType>1</ConductivityType>
+          <Coefficients equation="0">
+            <A>0.00000000e+00</A>
+            <B>0.00000000e+00</B>
+            <C>0.00000000e+00</C>
+            <D>0.00000000e+00</D>
+            <M>0.0</M>
+            <CPcor>-9.57e-8</CPcor>
+          </Coefficients>
+          <Coefficients equation="1">
+            <G>-0.9805795</G>
+            <H>0.1393839</H>
+            <I>-0.0002492157</I>
+            <J>0.00003657866</J>
+            <CPcor>-9.57e-8</CPcor>
+            <CTcor>0.00000325</CTcor>
+            <WBOTC>3.137175e-7</WBOTC>
+          </Coefficients>
+          <Slope>1.00000000</Slope>
+          <Offset>0.0000</Offset>
+        </ConductivitySensor>
+      </Sensor>
+    </SensorArray>
+  </Instrument>
+</SBE_InstrumentConfiguration>
